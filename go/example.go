@@ -9,6 +9,7 @@ import (
 type RecordsChan chan intf.Record
 type CloseChan chan bool
 
+// WriterConfig is a WriterConfig.
 type WriterConfig struct {
 	Output  []string
 	Reader  []string
