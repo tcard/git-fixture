@@ -1,1 +1,1 @@
-main = putStrLn "burrito"
+main = return "burrito" >>= putStrLn

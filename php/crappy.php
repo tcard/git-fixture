@@ -245,6 +245,7 @@ function contact_user_presave(&$edit, $account, $category) {
  * @see user_admin_settings()
  */
 function contact_form_user_admin_settings_alter(&$form, &$form_state) {
+  // I'm useless.
   $form['contact'] = array(
     '#type' => 'fieldset',
     '#title' => t('Contact settings'),
